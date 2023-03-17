@@ -12,6 +12,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
   }
   .nav-bar ul {
     display: flex;
@@ -19,7 +20,7 @@
     gap: 20px;
     font-size: 20px;
     margin-right: 40px;
-    margin-top: 40px;
+    margin-top: 60px;
     color: white;
   }
   .nav-bar ul li a {
@@ -67,11 +68,13 @@
   .container-part2 {
     width: 45%;
     height: 73vh;
-    background-image: url(https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-image: url(https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+ 
+  
   .button {
     margin-left: 60px;
   }
@@ -87,6 +90,7 @@
     justify-content: space-around;
     width: 80%;
     margin: auto;
+    /* justify-content: center; */
   }
   .products h2 {
     text-align: center;
@@ -99,3 +103,163 @@
   .products h2 {
     padding-top: 25px;
   }
+  #product{
+    width: 100%;
+    /* height: 50vh; */
+    padding: 30px  50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: rgb(98, 110, 81);
+  }
+  .product-details{
+    width: 20%;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(213, 191, 163)
+
+  }
+  .product-details img{
+    padding-left: 40px;
+  }
+  .product-details h2{
+    text-align:center ;
+  }.product-details p{
+    padding: 10px;
+
+  }
+  #btn{
+    margin: 10px ;
+  }
+#btn: hover{
+  cursor: pointer;
+  background-color:black;
+}
+#view-more:hover{
+  background-color: rgb(92, 57, 7);
+}
+#view-more{
+  margin-left: 870px;
+  padding-left: 20px;
+}
+.productlist{
+  width: 100%;
+  background-color: beige;
+  
+}
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400px;
+  font-size: 100px;
+}
+
+.services{
+  /* background-image: url(https://images.pexels.com/photos/735869/pexels-photo-735869.jpeg?auto=compress&cs=tinysrgb&w=600); */
+  background-size:cover ;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#par{
+  display: flex;
+  float: right;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+}
+#productdetails{
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  padding-left:  10px;
+  
+  margin-left: 10px;
+}
+.containers{
+  z-index: -1;
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 20px 100px;
+  background-image: url(image/pexels-photo-858508.jpeg);
+  background-size: cover;
+
+}
+.containers::after{
+  content: '';
+  position: absolute;
+  background:image(image/pexels-photo-858508.jpeg) ;
+}
+.container-box{
+  background-color: aliceblue;
+  height: 68vh;
+  width: 50vh;
+  padding-left:  100px  ;
+ 
+}
+
+.button :hover{
+  background-color: blueviolet;
+
+}
+.log-page{
+  padding-top: 150px;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-image:  url(https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=600);
+  
+  
+}
+.log{
+  background-color: azure;
+  height: 58vh;
+  width: 23%;
+  margin: auto;
+  padding: 30px 30px;
+  margin-top: 45px;
+  color: black;
+}
+.log h1{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px; }
+.log p{
+  font-weight: bold;
+}
+.log input{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+  color: black;
+  outline: none;
+  font-size: 14px;
+}
+.log-btn{
+  padding: 6px 20px;
+  width: 100%;
+  color: black;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: rgb(209, 145, 62);
+
+}
+.log-btn:hover{
+  background-color:rgb(116, 67, 5);
+
+
+  cursor: pointer;
+ 
+
+}
