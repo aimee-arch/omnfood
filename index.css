@@ -132,6 +132,10 @@
   padding: 6px 20px;
   border-radius: 20px;
   background-color: rgb(209, 145, 62);
+ 
+}
+button a{
+  text-decoration: none;
 }
 button:hover{
   background-color:rgb(116, 67, 5);
@@ -250,3 +254,19 @@ h1{
 
 }
  
+@media screen and (max-width:800px){
+  .nav-bar{
+    display: block;
+    height: 23vh;
+  }
+  .nav-bar ul {
+    display: block;
+ padding-left: 40px;
+ margin-top: 1px;
+}
+
+    .logo-img {
+      height: 55px;
+    }
+  
+}
