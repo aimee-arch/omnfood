@@ -49,6 +49,7 @@
   .container-part1 {
     width: 45%;
     height: 73vh;
+    padding-top: 200px;
   }
   
   .container-part1 span {
@@ -64,32 +65,23 @@
     font-size: 18px;
     padding: 50px 20px;
     line-height: 1.5;
+    padding-left: 80px;
   }
   .container-part2 {
-    width: 45%;
-    height: 73vh;
+    width: 35%;
+    height: 53vh;
+    margin-top: 200px;
+    margin-right: 300px;
     background-image: url(https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
- 
-  
-  .button {
-    margin-left: 60px;
-  }
-  button {
-    padding: 15px;
-    border: none;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: rgb(244, 8, 8);
-  }
   .day-per-day {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80%;
-    margin: auto;
+    margin: 0 0px 0 50px;
     /* justify-content: center; */
   }
   .products h2 {
@@ -104,12 +96,13 @@
     padding-top: 25px;
   }
   #product{
+    /* padding-top: 90px; */
     width: 100%;
     /* height: 50vh; */
     padding: 30px  50px;
     display: flex;
     /* flex-wrap: wrap; */
-    background-color: rgb(98, 110, 81);
+    /* background-color: rgb(98, 110, 81); */
   }
   .product-details{
     width: 20%;
@@ -120,28 +113,30 @@
   }
   .product-details img{
     padding-left: 40px;
+   height: 270px;
   }
   .product-details h2{
     text-align:center ;
-  }.product-details p{
+  padding-left: 110px;
+  }
+  .product-details p{
     padding: 10px;
 
   }
-  #btn{
-    margin: 10px ;
-  }
-#btn: hover{
-  cursor: pointer;
-  background-color:black;
+  button {
+ cursor: pointer;
+  margin: 40px ;
+  border: none;
+  font-size: 20px;
+  padding: 6px 20px;
+  border-radius: 20px;
+  background-color: rgb(209, 145, 62);
 }
-#view-more:hover{
-  background-color: rgb(92, 57, 7);
-}
-#view-more{
-  margin-left: 870px;
-  padding-left: 20px;
+button:hover{
+  background-color:rgb(116, 67, 5);
 }
 .productlist{
+  padding-top: 100px;
   width: 100%;
   background-color: beige;
   
@@ -166,7 +161,7 @@ h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 40px;
 }
-#productdetails{
+.product-details{
   float: right;
   display: flex;
   flex-wrap: wrap;
@@ -191,7 +186,7 @@ h1{
 .containers::after{
   content: '';
   position: absolute;
-  background:image(image/pexels-photo-858508.jpeg) ;
+  background:image(image/pexels-photo-858508jpeg) ;
 }
 .container-box{
   background-color: aliceblue;
@@ -200,11 +195,11 @@ h1{
   padding-left:  100px  ;
  
 }
-
-.button :hover{
-  background-color: blueviolet;
-
+h1{
+  padding-top: 100px;
 }
+
+
 .log-page{
   padding-top: 150px;
   height: 100vh;
@@ -214,10 +209,11 @@ h1{
   background-repeat: no-repeat;
   background-image:  url(https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=600);
   
-  
+  /* opacity: 0.6; */
 }
 .log{
-  background-color: azure;
+ border-radius: 20px;
+  background-color: rgb(242, 226, 242);
   height: 58vh;
   width: 23%;
   margin: auto;
@@ -237,29 +233,11 @@ h1{
   margin-bottom: 20px;
   height: 30px;
   border: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(10, 8, 8);
   background: transparent;
   color: black;
   outline: none;
   font-size: 14px;
 }
-.log-btn{
-  padding: 6px 20px;
-  width: 100%;
-  color: black;
-  border: none;
-  outline: none;
-  font-size: 18px;
-  border-radius: 20px;
-  margin-top: 15px;
-  background-color: rgb(209, 145, 62);
 
-}
-.log-btn:hover{
-  background-color:rgb(116, 67, 5);
-
-
-  cursor: pointer;
  
-
-}
